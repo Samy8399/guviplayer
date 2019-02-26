@@ -1,0 +1,32 @@
+void main()
+{
+int a[25],j,i,n,c,b;
+clrscr();
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+//scanf("%d",&b);
+b=(n+1)-b;
+for(j=0;j<2;j++)
+{
+c=0;
+for(i=0;i<n;i++)
+{
+if(a[i]>c)
+{
+c=a[i];
+}
+}
+for(i=0;i<n;i++)
+{
+if(c==a[i])
+{
+a[i]='\0';
+}
+}
+}
+printf("%d",c);
+getch();
+}
