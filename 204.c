@@ -10,7 +10,7 @@ int main()
 	for(i=0;i<b;i++)
 	{
 		if(a[i]<0)
-		j++;
+		j=j+a[i];
 	}
 	printf("\n%d",j);
 }
