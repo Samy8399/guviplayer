@@ -10,7 +10,7 @@ int main()
 	{
 		for(j=0;j<b;j++)
 		{
-			printf("%d=%d\t",a[i],c[j]);
+			
 			if(a[i]==c[j])
 			{
 				printf("%d\t",c[j]);
