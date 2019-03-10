@@ -1,0 +1,31 @@
+int main()
+{
+	int a[100],b,i,j=0,k=0;
+	scanf("%d",&b);
+	for(i=0;i<b;i++)
+	scanf("%d",&a[i]);
+	for(i=0;i<b;i++)
+	{
+		if(a[i]%2==0)
+		j++;
+		else
+		k++;
+	}
+	printf("%d,,,%d",j,k);
+	if(j==b-2)
+	{
+	for(i=0;i<b;i++)
+		{
+			if(a[i]%2!=0)
+			printf("%d",a[i]);
+		}
+	}
+		if(k==b-2)
+	{
+	for(i=0;i<b;i++)
+		{
+			if(a[i]%2==0)
+			printf("%d",a[i]);
+		}
+	}
+}
