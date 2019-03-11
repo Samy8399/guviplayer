@@ -10,7 +10,7 @@ int main()
 	printf("%d",a[0]);
 	for(i=0;i<b;i++)
 	{
-		for(j=i+1;j<b;j++)
+		for(j=0;j<b;j++)
 		{
 			c=a[i]&a[j];
 			if(c>d)
