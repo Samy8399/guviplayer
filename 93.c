@@ -1,0 +1,29 @@
+int main()
+{
+	int a[100],b,i,j,c;
+	scanf("%d",&b);
+	for(i=0;i<b;i++)
+	scanf("%d",&a[i]);
+	if(b%2==0)
+	{
+	for(i=0;i<b;i++)
+		{
+			c=a[i];
+			a[i]=a[i+1];
+			a[i+1]=c;
+		}
+	}
+	else
+		{
+			for(i=0;i<b-1;i++)
+		{
+			c=a[i];
+			a[i]=a[i+1];
+			a[i+1]=c;
+		}
+	}
+	for(i=0;i<b;i++)
+	{
+		printf("%d",a[i]);
+	}
+}
