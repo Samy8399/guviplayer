@@ -11,7 +11,7 @@ int main()
 	c=a[j]+a[j+1];
 
 	d=d+c;
-	printf("d=%d ",d);
+	
 	}
 	printf("\n%d",d);
 }
