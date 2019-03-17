@@ -6,10 +6,10 @@ clrscr();
 scanf("%d",&a);
 while1(a)
 {
-r=a%2;
-a=a/2;
+r=a%10;
+a=a/10;
 b=b+(i*r);
-i=i*8;
+i=i*2;
 }
 printf("%d",b);
 getch();
