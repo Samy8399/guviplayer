@@ -4,20 +4,20 @@ int main()
 	scanf("%d%d\n",&b,&j);
 	for(i=0;i<b;i++)
 	scanf("%d",&a[i]);
-	for(i=0;i<b;i++)
-	{
-		if(a[i]==j)
-		{
-			printf("%d",a[i]);
-			c=1;
-			break;
-		}
-	}
+	
+	
+		
+		
+			
+			
+			
+		
+	
 	if(c==0)
 	{
 		for(i=0;i<b;i++)
 	{
-		if(a[i]<j)
+		if(a[i]>j)
 		{
 			printf("%d",a[i]);
 			break;
