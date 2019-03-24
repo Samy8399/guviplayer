@@ -18,7 +18,7 @@ int main()
 		}
 	}
 	if(e<=c)
-	printf("yes");
+	printf("true");
 	else
-	printf("no");
+	printf("false");
 }
