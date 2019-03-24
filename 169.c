@@ -6,7 +6,7 @@ int main()
 	b=strlen(a);
 	for(i=0;i<b;i++)
 	{
-		c=0;
+		c=1;
 		for(j=i;j<b;j++)
 		{
 			if(a[i]==a[j])
